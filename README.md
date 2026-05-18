@@ -53,7 +53,7 @@ countdown-timer/
 Add your project screenshot inside:
 
 ```bash
-assets/preview.png
+assets/preview.jpg
 ```
 
 ---
@@ -63,7 +63,7 @@ assets/preview.png
 Add your deployed link here:
 
 ```bash
-https://your-live-demo-link.com
+https://countdown-timer-five-tau.vercel.app/
 ```
 
 ---
