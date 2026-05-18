@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Modern Countdown Timer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Effects -->
+  <div class="blur blur-1"></div>
+  <div class="blur blur-2"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <span>⏳</span>
+      <h2>CountDown Pro</h2>
+    </div>
+
+    <button id="themeToggle" class="theme-btn" aria-label="Toggle Theme">
+      🌙
+    </button>
+  </header>
+
+  <!-- Main -->
+  <main class="container">
+
+    <!-- Hero -->
+    <section class="hero">
+      <h1>Modern Countdown Timer</h1>
+      <p>
+        A clean and professional countdown timer with glassmorphism UI,
+        animations, dark mode, and responsive design.
+      </p>
+    </section>
+
+    <!-- Timer Card -->
+    <section class="timer-card">
+
+      <!-- Current Date -->
+      <div class="current-date">
+        <p id="todayDate"></p>
+      </div>
+
+      <!-- Inputs -->
+      <div class="input-group">
+
+        <div class="field">
+          <label for="eventName">Event Name</label>
+          <input
+            type="text"
+            id="eventName"
+            placeholder="Enter event name"
+          />
+        </div>
+
+        <div class="field">
+          <label for="targetDate">Target Date</label>
+          <input
+            type="datetime-local"
+            id="targetDate"
+          />
+        </div>
+
+      </div>
+
+      <!-- Buttons -->
+      <div class="buttons">
+        <button id="startBtn" class="primary-btn">
+          Start Countdown
+        </button>
+
+        <button id="resetBtn" class="secondary-btn">
+          Reset
+        </button>
+      </div>
+
+      <!-- Error Message -->
+      <p id="errorMessage" class="error-message"></p>
+
+      <!-- Empty State -->
+      <div class="empty-state" id="emptyState">
+        <div class="empty-icon">🚀</div>
+        <h3>No Countdown Started</h3>
+        <p>Create your first event countdown.</p>
+      </div>
+
+      <!-- Countdown Display -->
+      <div class="countdown hidden" id="countdown">
+
+        <h2 id="eventTitle">Event</h2>
+
+        <div class="timer-grid">
+
+          <div class="time-box">
+            <span id="days">00</span>
+            <p>Days</p>
+          </div>
+
+          <div class="time-box">
+            <span id="hours">00</span>
+            <p>Hours</p>
+          </div>
+
+          <div class="time-box">
+            <span id="minutes">00</span>
+            <p>Minutes</p>
+          </div>
+
+          <div class="time-box">
+            <span id="seconds">00</span>
+            <p>Seconds</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>
+      Built with ❤️ using HTML, CSS & JavaScript
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
