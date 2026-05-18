@@ -43,24 +43,12 @@ countdown-timer/
 ├── script.js
 ├── README.md
 └── assets/
-    └── preview.png
-```
-
----
-
-# 🖼 Screenshot
-
-Add your project screenshot inside:
-
-```bash
-assets/preview.jpg
+    └── preview.jpg
 ```
 
 ---
 
 # 🌐 Live Demo
-
-Add your deployed link here:
 
 ```bash
 https://countdown-timer-five-tau.vercel.app/
@@ -69,8 +57,6 @@ https://countdown-timer-five-tau.vercel.app/
 ---
 
 # 💻 GitHub Repository
-
-Add your GitHub repository link here:
 
 ```bash
 https://github.com/masifgpt
@@ -83,7 +69,7 @@ https://github.com/masifgpt
 1. Download or clone the repository
 
 ```bash
-git clone https://github.com/your-username/countdown-timer.git
+git clone https://github.com/masifgpt/countdown-timer
 ```
 
 2. Open project folder
